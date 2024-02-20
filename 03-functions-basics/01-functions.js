@@ -9,8 +9,15 @@ function sayMyname(){
 
 //sayMyname()
 
+// function addTwonumbers(number1,number2){
+//     console.log(number1+number2);
+//     return number1 + number2
+// }
+
 function addTwonumbers(number1,number2){
-    // console.log(number1+number2);
+
+    // let result = number1 + number2
+    // return result (both are right but difrent way)
     return number1 + number2
 }
 
@@ -20,5 +27,12 @@ function addTwonumbers(number1,number2){
 
 
 const result = addTwonumbers(3,4)
-console.log("Result:",result);
+// console.log("Result:",result);
+
+
+function loginUserMessage(username){
+    return` ${username} just logged in`
+}
+
+console.log(loginUserMessage("rashi"));
 
