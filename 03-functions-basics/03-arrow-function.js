@@ -52,5 +52,13 @@ console.log(addTwo(3,4));
 
 
 
+// hoisting=> Hoisting is a behaviour where the variable and function declaration are conceptually moved to the top of their current scope before any code execuion.
 
+//Types of Hoisting:
+
+//Variable hoisting: Only the declarations are hoisted, not the assignments. So, using a variable before its assignment results in undefined.
+//Function hoisting: Both the declaration and the function body are hoisted. This allows you to call functions before their definition in the code.
+
+
+//callback-> callback in javascript is function passed as a argument to another function. They essentially mini-program that get executed when certain event occur or conditions are met within the main function.
 
