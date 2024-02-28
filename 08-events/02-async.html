@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai or code</h1>
+    <button id="stop">Stop</button>
+    
+</body>
+<script>
+    const Hirashi = function(){
+        console.log("Rashi");
+    }
+
+    const changeText = function(){
+        document.querySelector('h1').
+    innerHTML= "best frnd me"
+    }
+    const changeMe =  setTimeout(changeText,2000);
+
+
+    //clearTimeout - it require the refrence of the settimeout
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeMe);
+        console.log("Stopped");
+    })
+
+</script>
+</html>
